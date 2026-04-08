@@ -1,0 +1,78 @@
+.jed-page {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background: #9da39a;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.jed-page > main {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #efcefa;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.jed-page > header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 3px solid black;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+.jed-page > header img {
+  width: 70px;
+}
+
+.jed-page h1 {
+  margin: 0;
+  color: #131200;
+}
+
+.jed-page main h2 {
+  margin-top: 0;
+  color: #3e2f5b;
+}
+
+.jed-page p {
+  color: #131200;
+}
+
+.jed-page ul {
+  list-style-type: circle;
+  padding-left: 25px;
+}
+
+.jed-page li {
+  margin-bottom: 6px;
+}
+
+.jed-page section {
+  background: #ffffff;
+  border-left: 6px solid #3e2f5b;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.jed-page section h3 {
+  margin-top: 0;
+  color: #3e2f5b;
+}
+
+.jed-page > footer {
+  text-align: center;
+  padding: 20px;
+  background: #131200;
+  color: #efcefa;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+.jed-page > footer p {
+  color: white;
+}

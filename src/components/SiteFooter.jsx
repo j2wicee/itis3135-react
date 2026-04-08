@@ -1,0 +1,33 @@
+import { Link } from "react-router-dom";
+import { vercelAppUrl } from "../config";
+import { JOSHUA_EVANS_DEV_TO } from "../routes";
+
+export function SiteFooter() {
+  return (
+    <footer>
+      <Link to="/">ITIS 3135 | </Link>
+      <a href="https://github.com/j2wicee">GitHub | </a>
+      <a href="https://webpages.charlotte.edu/jevan138/">CLT Web | </a>
+      <a href="https://j2wicee.github.io">GitHub.io | </a>
+      <a href={vercelAppUrl}>ITIS3135@Vercel | </a>
+      <a href="https://www.freecodecamp.org/josh3vans">freeCodeCamp | </a>
+      <a href="https://www.linkedin.com/in/joshua-evans-a1b936340/">LinkedIn</a>
+      <p>
+        Page designed by
+        <Link to={JOSHUA_EVANS_DEV_TO}> Joshua Evans Development </Link>
+      </p>
+      <p>
+        Certified in
+        <a
+          href="https://www.freecodecamp.org/certification/josh3vans/responsive-web-design-v9"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          Responsive Web Design
+        </a>
+      </p>
+      <p>Verified by Accumulus</p>
+    </footer>
+  );
+}

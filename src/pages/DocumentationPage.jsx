@@ -1,0 +1,59 @@
+import { useDocumentTitle } from "../hooks/useDocumentTitle";
+
+export function DocumentationPage() {
+  useDocumentTitle("Documentation ~ ITIS 3135");
+  return (
+    <>
+      <h2>Cheese CPU Documentation</h2>
+
+      <section id="overview">
+        <h3>Overview</h3>
+        <p>
+          The Cheese CPU converts cheese energy into computational power,
+          perfect for tiny mouse gadgets.
+        </p>
+      </section>
+
+      <section id="specs">
+        <h3>Specifications</h3>
+        <ul>
+          <li>Power Source: Aged cheddar blocks</li>
+          <li>Processing Speed: 2 GHz equivalent</li>
+          <li>Cooling: Crumb fan system</li>
+          <li>Dimensions: 5cm x 5cm x 2cm</li>
+        </ul>
+      </section>
+
+      <section id="installation">
+        <h3>Installation</h3>
+        <ol>
+          <li>Place the Cheese CPU into the miniature motherboard slot.</li>
+          <li>Connect the cheese power input.</li>
+          <li>Secure with tiny screws included.</li>
+        </ol>
+      </section>
+
+      <section id="usage">
+        <h3>Usage</h3>
+        <p>Example code snippet to initialize the Cheese CPU:</p>
+        <pre>
+          <code>{`let cpu = new CheeseCPU();
+cpu.powerOn();
+cpu.runProgram("nanoCoding");`}</code>
+        </pre>
+      </section>
+
+      <section id="troubleshooting">
+        <h3>Troubleshooting</h3>
+        <ul>
+          <li>If CPU overheats, replace cheese blocks with fresh ones.</li>
+          <li>For power issues, ensure the crumb fan is unobstructed.</li>
+          <li>
+            Debugging tips: Use the Wireless Crumb Tracker to locate lost crumbs
+            affecting performance.
+          </li>
+        </ul>
+      </section>
+    </>
+  );
+}

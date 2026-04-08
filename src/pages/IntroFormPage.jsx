@@ -302,8 +302,7 @@ export function IntroFormPage() {
               type="hidden"
               id="picture-src"
               name="picture-src"
-              value={pictureSrc ?? ""}
-              readOnly
+              value={pictureSrc}
             />
           </fieldset>
           <fieldset>
@@ -414,7 +413,7 @@ export function IntroFormPage() {
                     <input
                       type="text"
                       className="course-dept"
-                      value={course.dept ?? ""}
+                      value={course.dept}
                       onChange={(e) =>
                         setCourses((prev) =>
                           prev.map((c, i) =>
@@ -431,7 +430,7 @@ export function IntroFormPage() {
                     <input
                       type="text"
                       className="course-num"
-                      value={course.num ?? ""}
+                      value={course.num}
                       onChange={(e) =>
                         setCourses((prev) =>
                           prev.map((c, i) =>
@@ -448,7 +447,7 @@ export function IntroFormPage() {
                     <input
                       type="text"
                       className="course-name"
-                      value={course.name ?? ""}
+                      value={course.name}
                       onChange={(e) =>
                         setCourses((prev) =>
                           prev.map((c, i) =>
@@ -465,7 +464,7 @@ export function IntroFormPage() {
                     <input
                       type="text"
                       className="course-reason"
-                      value={course.reason ?? ""}
+                      value={course.reason}
                       onChange={(e) =>
                         setCourses((prev) =>
                           prev.map((c, i) =>

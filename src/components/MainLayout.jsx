@@ -10,6 +10,7 @@ export function MainLayout() {
 
     const script = document.createElement("script");
     script.src = "https://lint.page/kit/4d0fe3.js";
+    script.type = "module";
     script.crossOrigin = "anonymous";
     script.dataset.lintPage = "true";
     document.head.appendChild(script);

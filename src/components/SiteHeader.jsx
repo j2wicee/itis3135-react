@@ -16,6 +16,7 @@ export function SiteHeader() {
         <Link to="/website_evaluations">Website Evaluations</Link>
         <Link to="/intro_form">Introduction Form</Link>
         <Link to="/project_overview">Project Overview</Link>
+        <Link to="/slideshow">Slideshow</Link>
       </nav>
 
       <nav aria-label="Secondary Navigation Bar">

@@ -13,6 +13,7 @@ import { ProductPage } from "./pages/ProductPage";
 import { ProjectOverviewPage } from "./pages/ProjectOverviewPage";
 import { SurveyPage } from "./pages/SurveyPage";
 import { WebsiteEvaluationsPage } from "./pages/WebsiteEvaluationsPage";
+import { SlideshowPage } from "./pages/SlideshowPage";
 
 export const router = createBrowserRouter([
   {
@@ -29,6 +30,7 @@ export const router = createBrowserRouter([
       { path: "website_evaluations", element: <WebsiteEvaluationsPage /> },
       { path: "intro_form", element: <IntroFormPage /> },
       { path: "project_overview", element: <ProjectOverviewPage /> },
+      { path: "slideshow", element: <SlideshowPage /> },
     ],
   },
   { path: CRAPPY_PAGE_TO, element: <CrappyPage /> },
